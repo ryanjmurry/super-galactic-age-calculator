@@ -49,4 +49,20 @@ describe('GalacticCalculator', function () {
     expect(newGalacticCalculatorF.lifeExpectancy("Jupiter").toFixed(1)).toEqual("6.9");
   });
 
+  it('should calculate the expected years remaining of a male or female at a given age in Earth, Mercury, Venus, Mars, and Jupiter Years ', function () {
+    let birthday = new Date("August 2, 2018");
+    let newGalacticCalculatorM = new GalacticCalculator("M", 5, birthday);
+    let newGalacticCalculatorF = new GalacticCalculator("F", 5, birthday);
+    expect(newGalacticCalculatorM.yearsLeft("Earth").toFixed(1)).toEqual("71.6");
+    expect(newGalacticCalculatorM.yearsLeft("Mercury").toFixed(1)).toEqual("298.3");
+    expect(newGalacticCalculatorM.yearsLeft("Venus").toFixed(1)).toEqual("115.5");
+    expect(newGalacticCalculatorM.yearsLeft("Mars").toFixed(1)).toEqual("38.1");
+    expect(newGalacticCalculatorM.yearsLeft("Jupiter").toFixed(1)).toEqual("6.0");
+    expect(newGalacticCalculatorF.yearsLeft("Earth").toFixed(1)).toEqual("76.3");
+    expect(newGalacticCalculatorF.yearsLeft("Mercury").toFixed(1)).toEqual("317.9");
+    expect(newGalacticCalculatorF.yearsLeft("Venus").toFixed(1)).toEqual("123.1");
+    expect(newGalacticCalculatorF.yearsLeft("Mars").toFixed(1)).toEqual("40.6");
+    expect(newGalacticCalculatorF.yearsLeft("Jupiter").toFixed(1)).toEqual("6.4");
+  });
+
 });

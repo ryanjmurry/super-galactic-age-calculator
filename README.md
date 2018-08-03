@@ -44,11 +44,11 @@
   | P   | Convert Earth years to Jupiter years                                               | 5                                                         | 0.4          |
   | P   | Determine life expectancy on Earth                                                 | 5 & Male, 5 & Female                                      | 76.6, 81.3   |
   | P   | Determine life expectancy on Mercury                                               | 5 & Male, 5 & Female                                      | 319.1, 338.8 |
-  | P   | Determine life expectancy on Venus                                                 | 5 & Male, 5 & Female                                      | 123.5, 131.2 |
-  | P   | Determine life expectancy on Mars                                                  | 5 & Male, 5 & Female                                      | 40.7, 43.3   |
+  | P   | Determine life expectancy on Venus                                                 | 5 & Male, 5 & Female                                      | 123.5, 131.1 |
+  | P   | Determine life expectancy on Mars                                                  | 5 & Male, 5 & Female                                      | 40.7, 43.2   |
   | P   | Determine life expectancy on Jupiter                                               | 5 & Male, 5 & Female                                      | 6.5, 6.9     |
   |    | Determine how many years a user has left to live on Earth                          | 5 & Male, 5 & Female                                      | 71.6, 76.3   |
-  | F   | Determine how many years a user has left to live on Mercury                        | 5 & Male, 5 & Female                                      | 298.3, 318.0 |
+  | F   | Determine how many years a user has left to live on Mercury                        | 5 & Male, 5 & Female                                      | 298.3, 317.9 |
   | F   | Determine how many years a user has left to live on Venus                          | 5 & Male, 5 & Female                                      | 115.5, 123.1 |
   | F   | Determine how many years a user has left to live on Mars                           | 5 & Male, 5 & Female                                      | 38.1, 40.6   |
   | F   | Determine how many years a user has left to live on Jupiter                        | 5 & Male, 5 & Female                                      | 6.0, 6.4     |
