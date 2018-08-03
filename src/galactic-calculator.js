@@ -11,4 +11,11 @@ export class GalacticCalculator {
             "Jupiter": 11.86
         }
     }
+
+    yearsToSeconds() {
+        let secondsInAYear = 365.25 * 24 * 60 * 60;
+        return this.age * secondsInAYear;
+    }
+
+    
 }
