@@ -37,7 +37,7 @@
   | Description                                                                        | Input                                     | Output       |
   | ---------------------------------------------------------------------------------- | ----------------------------------------- | ------------ |
   | Converts a person's age in years to seconds                                        | 5                                         | 157788000    |
-  | Determines the difference, in seconds, between two dates                           | August 03, 2018, August 04, 2018          | 86400        |
+  | Determines the difference, in seconds, between two dates                           | August 02, 2018, August 03, 2018          | 86400        |
   | Convert Earth years to Mercury years                                               | 5                                         | 20.8         |
   | Convert Earth years to Venus years                                                 | 5                                         | 8.1          |
   | Convert Earth years to Mars years                                                  | 5                                         | 2.7          |
