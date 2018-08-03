@@ -22,12 +22,12 @@ export class GalacticCalculator {
     return (today.getTime() - this.birthday.getTime()) / 1000;
   }
 
-  earthYearsConverter(planet) {
+  yearsConverter(planet) {
     return this.age / this.planets[planet];
   }
 
   lifeExpectancy(planet) {
-      return this.yearsLeft(planet) + this.earthYearsConverter(planet);
+      return this.yearsLeft(planet) + this.yearsConverter(planet);
   }
 
   yearsLeft(planet) {
@@ -54,10 +54,10 @@ export class GalacticCalculator {
     } else {
       planetLifeExpectancy = standardFemaleLifeExpectancy / this.planets[planet];
     }
-    if (this.earthYearsConverter(planet) < planetLifeExpectancy) {
+    if (this.yearsConverter(planet) < planetLifeExpectancy) {
       return "N/A"
     } else {
-      return this.earthYearsConverter(planet) - planetLifeExpectancy;
+      return this.yearsConverter(planet) - planetLifeExpectancy;
     }
   }
 
