@@ -33,7 +33,7 @@ describe('GalacticCalculator', function () {
     expect(newGalacticCalculator.earthYearsConverter("Jupiter").toFixed(1)).toEqual("0.4");
   });
 
-  it('should calculate the life expectancy of a male or female at a given age in Earth, Mercury, Venus, Mars, and Jupiter Years ', function () {
+  it('should calculate the life expectancy of a male or female at a given age in Earth, Mercury, Venus, Mars, and Jupiter years', function () {
     let birthday = new Date("August 2, 2018");
     let newGalacticCalculatorM = new GalacticCalculator("M", 5, birthday);
     let newGalacticCalculatorF = new GalacticCalculator("F", 5, birthday);
@@ -49,7 +49,7 @@ describe('GalacticCalculator', function () {
     expect(newGalacticCalculatorF.lifeExpectancy("Jupiter").toFixed(1)).toEqual("6.9");
   });
 
-  it('should calculate the expected years remaining of a male or female at a given age in Earth, Mercury, Venus, Mars, and Jupiter Years ', function () {
+  it('should calculate the expected years remaining of a male or female at a given age in Earth, Mercury, Venus, Mars, and Jupiter years', function () {
     let birthday = new Date("August 2, 2018");
     let newGalacticCalculatorM = new GalacticCalculator("M", 5, birthday);
     let newGalacticCalculatorF = new GalacticCalculator("F", 5, birthday);
@@ -63,6 +63,22 @@ describe('GalacticCalculator', function () {
     expect(newGalacticCalculatorF.yearsLeft("Venus").toFixed(1)).toEqual("123.1");
     expect(newGalacticCalculatorF.yearsLeft("Mars").toFixed(1)).toEqual("40.6");
     expect(newGalacticCalculatorF.yearsLeft("Jupiter").toFixed(1)).toEqual("6.4");
+  });
+
+  it('should determine how many years a male or female has outlived the average life expectancy in Earth, Mercury, Venus, Mars, and Jupiter years', function () {
+    let birthday = new Date("August 2, 2018");
+    let newGalacticCalculatorM = new GalacticCalculator("M", 80, birthday);
+    let newGalacticCalculatorF = new GalacticCalculator("F", 85, birthday);
+    expect(newGalacticCalculatorM.outlivedExpectancyBy("Earth").toFixed(1)).toEqual("3.1");
+    expect(newGalacticCalculatorM.outlivedExpectancyBy("Mercury").toFixed(1)).toEqual("12.9");
+    expect(newGalacticCalculatorM.outlivedExpectancyBy("Venus").toFixed(1)).toEqual("5.0");
+    expect(newGalacticCalculatorM.outlivedExpectancyBy("Mars").toFixed(1)).toEqual("1.6");
+    expect(newGalacticCalculatorM.outlivedExpectancyBy("Jupiter").toFixed(1)).toEqual("0.3");
+    expect(newGalacticCalculatorF.outlivedExpectancyBy("Earth").toFixed(1)).toEqual("3.4");
+    expect(newGalacticCalculatorF.outlivedExpectancyBy("Mercury").toFixed(1)).toEqual("14.2");
+    expect(newGalacticCalculatorF.outlivedExpectancyBy("Venus").toFixed(1)).toEqual("5.5");
+    expect(newGalacticCalculatorF.outlivedExpectancyBy("Mars").toFixed(1)).toEqual("1.8");
+    expect(newGalacticCalculatorF.outlivedExpectancyBy("Jupiter").toFixed(1)).toEqual("0.3");
   });
 
 });

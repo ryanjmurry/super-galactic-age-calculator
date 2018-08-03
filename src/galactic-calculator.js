@@ -43,4 +43,22 @@ export class GalacticCalculator {
       return ((80.9) - (0.903 * ageRaise[1]) - (0.00342 * ageRaise[2]) + (0.0000455 * ageRaise[3])) / this.planets[planet];
     }
   }
+
+  outlivedExpectancyBy(planet) {
+    //average life expectancy, in years, of a male and female, respectively, in the US
+    let standardMaleLifeExpectancy = 76.9;
+    let standardFemaleLifeExpectancy = 81.6;
+    let planetLifeExpectancy = 0;
+    if (this.sex === "M") {
+      planetLifeExpectancy = standardMaleLifeExpectancy / this.planets[planet];
+    } else {
+      planetLifeExpectancy = standardFemaleLifeExpectancy / this.planets[planet];
+    }
+    if (this.earthYearsConverter(planet) < planetLifeExpectancy) {
+      return "N/A"
+    } else {
+      return this.earthYearsConverter(planet) - planetLifeExpectancy;
+    }
+  }
+
 }

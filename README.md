@@ -52,11 +52,11 @@
   | P   | Determine how many years a user has left to live on Venus                          | 5 & Male, 5 & Female                                      | 115.5, 123.1 |
   | P   | Determine how many years a user has left to live on Mars                           | 5 & Male, 5 & Female                                      | 38.1, 40.6   |
   | P   | Determine how many years a user has left to live on Jupiter                        | 5 & Male, 5 & Female                                      | 6.0, 6.4     |
-  | F   | Determine (in years) how much a user outlived the avg. life expectancy on Earth    | **constants:** mAvg = 76.9, fAvg = 81.6 <br> 80 M, 85 F   | 3.1, 3.4     |
-  | F   | Determine (in years) how much a user outlived the avg. life expectancy on Mercury. | **constants:** mAvg = 320.4, fAvg = 340.0 <br> 80 M, 85 F | 12.9, 14.2   |
-  | F   | Determine (in years) how much a user outlived the avg. life expectancy on Venus.   | **constants:** mAvg = 124.0, fAvg = 131.6 <br> 80 M, 85 F | 5.0, 5.5     |
-  | F   | Determine (in years) how much a user outlived the avg. life expectancy on Mars.    | **constants:** mAvg = 40.9, fAvg = 43.4 <br> 80 M, 85 F   | 1.6, 1.8     |
-  | F   | Determine (in years) how much a user outlived the avg. life expectancy on Jupiter. | **constants:** mAvg = 6.5, fAvg = 81.6 <br> 80 M, 85 F    | 0.3, 0.3     |
+  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Earth    | **constants:** mAvg = 76.9, fAvg = 81.6 <br> 80 M, 85 F   | 3.1, 3.4     |
+  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Mercury. | **constants:** mAvg = 320.4, fAvg = 340.0 <br> 80 M, 85 F | 12.9, 14.2   |
+  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Venus.   | **constants:** mAvg = 124.0, fAvg = 131.6 <br> 80 M, 85 F | 5.0, 5.5     |
+  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Mars.    | **constants:** mAvg = 40.9, fAvg = 43.4 <br> 80 M, 85 F   | 1.6, 1.8     |
+  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Jupiter. | **constants:** mAvg = 6.5, fAvg = 81.6 <br> 80 M, 85 F    | 0.3, 0.3     |
   | F   | Return the date of a user's next birthday on Earth                                 |                                                           |              |
   | F   | Return the date of a user's next birthday on Mercury                               |                                                           |              |
   | F   | Return the date of a user's next birthday on Venus                                 |                                                           |              |
