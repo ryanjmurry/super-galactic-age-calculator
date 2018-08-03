@@ -1,9 +1,6 @@
 # Super Galactic Age Calculator
 
-#### Epicodus Javascript Week 1 Code Review, 08.03.2018
-
-#### Ryan Murry
-
+### **Ryan Murry** | Epicodus Javascript Week 1 Code Review, 08.03.2018
 
 ## Planning
 
@@ -36,54 +33,47 @@
   | webpack-dev-server v. 3.1.0          | Provides live reloading during development                                 |
 
 ### *Specs*
-  | Description                                                                         | Input | Output | Pass/Fail |
-  | ----------------------------------------------------------------------------------- | ----- | ------ | --------- |
-  | Converts a person's age in years to seconds                                         |       |        |           |
-  | Determines the difference, in seconds, between two dates                            |       |        |           |
-  | Convert Earth years to Mercury years                                                |       |        |           |
-  | Convert Earth years to Venus years                                                  |       |        |           |
-  | Convert Earth years to Mars years                                                   |       |        |           |
-  | Convert Earth years to Jupiter years                                                |       |        |           |
-  | Determine life expectancy on Mercury                                                |       |        |           |
-  | Determine life expectancy on Venus                                                  |       |        |           |
-  | Determine life expectancy on Mars                                                   |       |        |           |
-  | Determine life expectancy on Jupiter                                                |       |        |           |
-  | Determine how many years a user has left to live on each Mercury                    |       |        |           |
-  | Determine how many years a user has left to live on each Venus                      |       |        |           |
-  | Determine how many years a user has left to live on each Mars                       |       |        |           |
-  | Determine how many years a user has left to live on each Jupiter                    |       |        |           |
-  | Determine the number of years a user has lived past the life expectancy on Mercury. |       |        |           |
-  | Determine the number of years a user has lived past the life expectancy on Venus.   |       |        |           |
-  | Determine the number of years a user has lived past the life expectancy on Mars.    |       |        |           |
-  | Determine the number of years a user has lived past the life expectancy on Jupiter. |       |        |           |
-  | Return the date of a user’s next birthday on each Mercury                           |       |        |           |
-  | Return the date of a user’s next birthday on each Venus                             |       |        |           |
-  | Return the date of a user’s next birthday on each Mars                              |       |        |           |
-  | Return the date of a user’s next birthday on each Jupiter                           |       |        |           |
-  | Return the age Keith Richards will be in dog years on the planet Jupiter in 2073    |       |        |           |
-  | Determine how many mayfly lifespans (5 min) a human user has lived                  |       |        |           |
-  | Compare user's mayfly lifespans to current age (in Earth years) of our sun          |       |        |           |
+  | Description                                                                         | Input                            | Output    | Pass/Fail |
+  | ----------------------------------------------------------------------------------- | -------------------------------- | --------- | --------- |
+  | Converts a person's age in years to seconds                                         | 5                                | 157788000 | Fail      |
+  | Determines the difference, in seconds, between two dates                            | August 03, 2018, August 04, 2018 | 86400     | Fail      |
+  | Convert Earth years to Mercury years                                                | 5                                | 20.83     | Fail      |
+  | Convert Earth years to Venus years                                                  | 5                                | 8.06      | Fail      |
+  | Convert Earth years to Mars years                                                   | 5                                | 2.66      | Fail      |
+  | Convert Earth years to Jupiter years                                                | 5                                | 0.42      | Fail      |
+  | Determine life expectancy on Mercury                                                | 5                                |           | Fail      |
+  | Determine life expectancy on Venus                                                  | 5                                |           | Fail      |
+  | Determine life expectancy on Mars                                                   | 5                                |           | Fail      |
+  | Determine life expectancy on Jupiter                                                | 5                                |           | Fail      |
+  | Determine how many years a user has left to live on each Mercury                    |                                  |           | Fail      |
+  | Determine how many years a user has left to live on each Venus                      |                                  |           | Fail      |
+  | Determine how many years a user has left to live on each Mars                       |                                  |           | Fail      |
+  | Determine how many years a user has left to live on each Jupiter                    |                                  |           | Fail      |
+  | Determine the number of years a user has lived past the life expectancy on Mercury. |                                  |           | Fail      |
+  | Determine the number of years a user has lived past the life expectancy on Venus.   |                                  |           | Fail      |
+  | Determine the number of years a user has lived past the life expectancy on Mars.    |                                  |           | Fail      |
+  | Determine the number of years a user has lived past the life expectancy on Jupiter. |                                  |           | Fail      |
+  | Return the date of a user’s next birthday on each Mercury                           |                                  |           | Fail      |
+  | Return the date of a user’s next birthday on each Venus                             |                                  |           | Fail      |
+  | Return the date of a user’s next birthday on each Mars                              |                                  |           | Fail      |
+  | Return the date of a user’s next birthday on each Jupiter                           |                                  |           | Fail      |
+  | Return the age Keith Richards will be in dog years on the planet Jupiter in 2073    |                                  |           | Fail      |
+  | Determine how many mayfly lifespans (5 min) a human user has lived                  |                                  |           | Fail      |
+  | Compare user's mayfly lifespans to current age (in Earth years) of our sun          |                                  |           | Fail      |
 
-1. Integration
-  * Initial routes or index pages with all dependencies in Controller/index.html head
-  * Template/html page for ...
-  * Template/html page for ...
-  * Template/html page for ... (one for each route/integrated user story)
-  * Display...
-  * Integrate feature that... 
 
-4. UX/UI
-  * Include and modify bootstrap/materialize/Sass etc.
-  * Develop custom style
+ ### *UX/UI*
+  * Include and modify bootstrap/css etc.
+  * Develop solar theme
 
-5. Polish
-  * Refactor minor portion of...
-  * Delete unused...
-  * Make README awesome
+### *Polish*
+  * Refactor portion of galactic-calculator.js for similar planetary functions
+  * Delete unused dependencies
+  * Revise and README
 
 ## Description
 
-## Setup on OSX
+### *Setup on OSX*
 
 * Install Node.js
 * Install karma-cli globally: `npm install -g karma-cli`
@@ -93,14 +83,14 @@
 * `npm run lint` to explicitly run ESLint
 * `npm run test` to run the unit tests with Karma and Jasmine. Visit `localhost:9876` to view the tests.
 
-## Contribution Requirements
+### *Contribution Requirements*
 
 1. Clone the repo
-1. Make a new branch
-1. Commit and push your changes
-1. Create a PR
+2. Make a new branch
+3. Commit and push your changes
+4. Create a PR
 
-## Technologies Used
+### *Technologies Used*
 
 * JavaScript
 * Node.js
@@ -112,7 +102,7 @@
 * Jasmine
 * Karma
 
-## License
+### *License*
 
 This software is licensed under the MIT license.
 
