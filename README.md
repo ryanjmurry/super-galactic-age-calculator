@@ -37,11 +37,11 @@
   | P/F | Description                                                                        | Input                                                     | Output       |
   | --- | ---------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------ |
   | P   | Converts a person's age in years to seconds                                        | 5                                                         | 157788000    |
-  | F   | Determines the difference, in seconds, between two dates                           | August 02, 2018, August 03, 2018                          | 86400        |
-  | F   | Convert Earth years to Mercury years                                               | 5                                                         | 20.8         |
-  | F   | Convert Earth years to Venus years                                                 | 5                                                         | 8.1          |
-  | F   | Convert Earth years to Mars years                                                  | 5                                                         | 2.7          |
-  | F   | Convert Earth years to Jupiter years                                               | 5                                                         | 0.4          |
+  | P   | Determines the difference, in seconds, between two dates                           | August 02, 2018, August 03, 2018                          | 86400        |
+  | P   | Convert Earth years to Mercury years                                               | 5                                                         | 20.8         |
+  | P   | Convert Earth years to Venus years                                                 | 5                                                         | 8.1          |
+  | P   | Convert Earth years to Mars years                                                  | 5                                                         | 2.7          |
+  | P   | Convert Earth years to Jupiter years                                               | 5                                                         | 0.4          |
   | F   | Determine life expectancy on Earth                                                 | 5 & Male, 5 & Female                                      | 76.6, 81.3   |
   | F   | Determine life expectancy on Mercury                                               | 5 & Male, 5 & Female                                      | 319.1, 338.8 |
   | F   | Determine life expectancy on Venus                                                 | 5 & Male, 5 & Female                                      | 123.5, 131.2 |

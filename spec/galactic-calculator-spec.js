@@ -23,4 +23,14 @@ describe('GalacticCalculator', function () {
     let newGalacticCalculator = new GalacticCalculator("M", 5, birthday);
     expect(newGalacticCalculator.ageSecondCalculator()).toEqual(result);
   });
+
+  it('should convert an age in Earth years to Mercury, Venus, Mars, and Jupiter years', function () {
+    let birthday = new Date("August 2, 2018");
+    let newGalacticCalculator = new GalacticCalculator("M", 5, birthday);
+    expect(newGalacticCalculator.earthYearsConverter("Mercury").toFixed(1)).toEqual("20.8");
+    expect(newGalacticCalculator.earthYearsConverter("Venus").toFixed(1)).toEqual("8.1");
+    expect(newGalacticCalculator.earthYearsConverter("Mars").toFixed(1)).toEqual("2.7");
+    expect(newGalacticCalculator.earthYearsConverter("Jupiter").toFixed(1)).toEqual("0.4");
+  });
+
 });

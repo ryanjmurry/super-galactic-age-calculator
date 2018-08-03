@@ -21,4 +21,8 @@ export class GalacticCalculator {
     let today = new Date();
     return (today.getTime() - this.birthday.getTime()) / 1000;
   }
+
+  earthYearsConverter(planet) {
+    return this.age / this.planets[planet];
+  }
 }
