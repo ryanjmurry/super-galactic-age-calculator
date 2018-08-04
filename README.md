@@ -34,37 +34,18 @@
 
 ### *Specs*
 
-  | P/F | Description                                                                        | Input                                                     | Output       |
-  | --- | ---------------------------------------------------------------------------------- | --------------------------------------------------------- | ------------ |
-  | P   | Converts a person's age in years to seconds                                        | 5                                                         | 157788000    |
-  | P   | Determines the difference, in seconds, between two dates                           | August 02, 2018, August 03, 2018                          | 86400        |
-  | P   | Convert Earth years to Mercury years                                               | 5                                                         | 20.8         |
-  | P   | Convert Earth years to Venus years                                                 | 5                                                         | 8.1          |
-  | P   | Convert Earth years to Mars years                                                  | 5                                                         | 2.7          |
-  | P   | Convert Earth years to Jupiter years                                               | 5                                                         | 0.4          |
-  | P   | Determine life expectancy on Earth                                                 | 5 & Male, 5 & Female                                      | 76.6, 81.3   |
-  | P   | Determine life expectancy on Mercury                                               | 5 & Male, 5 & Female                                      | 319.1, 338.8 |
-  | P   | Determine life expectancy on Venus                                                 | 5 & Male, 5 & Female                                      | 123.5, 131.1 |
-  | P   | Determine life expectancy on Mars                                                  | 5 & Male, 5 & Female                                      | 40.7, 43.2   |
-  | P   | Determine life expectancy on Jupiter                                               | 5 & Male, 5 & Female                                      | 6.5, 6.9     |
-  | P   | Determine how many years a user has left to live on Earth                          | 5 & Male, 5 & Female                                      | 71.6, 76.3   |
-  | P   | Determine how many years a user has left to live on Mercury                        | 5 & Male, 5 & Female                                      | 298.3, 317.9 |
-  | P   | Determine how many years a user has left to live on Venus                          | 5 & Male, 5 & Female                                      | 115.5, 123.1 |
-  | P   | Determine how many years a user has left to live on Mars                           | 5 & Male, 5 & Female                                      | 38.1, 40.6   |
-  | P   | Determine how many years a user has left to live on Jupiter                        | 5 & Male, 5 & Female                                      | 6.0, 6.4     |
-  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Earth    | **constants:** mAvg = 76.9, fAvg = 81.6 <br> 80 M, 85 F   | 3.1, 3.4     |
-  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Mercury. | **constants:** mAvg = 320.4, fAvg = 340.0 <br> 80 M, 85 F | 12.9, 14.2   |
-  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Venus.   | **constants:** mAvg = 124.0, fAvg = 131.6 <br> 80 M, 85 F | 5.0, 5.5     |
-  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Mars.    | **constants:** mAvg = 40.9, fAvg = 43.4 <br> 80 M, 85 F   | 1.6, 1.8     |
-  | P   | Determine (in years) how much a user outlived the avg. life expectancy on Jupiter. | **constants:** mAvg = 6.5, fAvg = 81.6 <br> 80 M, 85 F    | 0.3, 0.3     |
-  | F   | Return the date of a user's next birthday on Earth                                 | August 02, 2018                                                          | August 02, 2019              |
-  | F   | Return the date of a user's next birthday on Mercury                               |                                                           |              |
-  | F   | Return the date of a user's next birthday on Venus                                 |                                                           |              |
-  | F   | Return the date of a user's next birthday on Mars                                  |                                                           |              |
-  | F   | Return the date of a user's next birthday on Jupiter                               |                                                           |              |
-  | F   | Return the age Keith Richards will be in dog years on the planet Jupiter in 2073   |                                                           |              |
-  | F   | Determine how many mayfly lifespans (5 min) a human user has lived                 |                                                           |              |
-  | F   | Compare user's mayfly lifespans to current age (in Earth years) of our sun         |                                                           |              |
+  | P/F | Description | Input | Output |
+  | --- | ----------- | ----- | ------ |
+  | P | Converts a person's age in years to seconds | 5 | 157788000 |
+  | P | Determines the difference, in seconds, between two dates | August 02, 2018, August 03, 2018 | 86400 |
+  | P | Convert Earth years to Mercury, Venus, Mars, and Jupiter years | 5 | **Mercury:** 20.8 </br> **Venus:** 8.1 </br> **Mars:** 2.7 </br> **Jupiter:** 0.4 |
+  | P | Determine life expectancy on Earth, Mercury, Venus, Mars, and Jupiter | 5 & Male, 5 & Female | **Earth:** 76.6, 81.3 </br> **Mercury:** 319.1, 338.8 </br> **Venus:** 123.5, 131.1 </br> **Mars:** 40.7, 43.2 </br> **Jupiter:** 6.5, 6.9 |
+  | P | Determine how many years a user has left to live on Earth, Mercury, Venus, Mars, and Jupiter | 5 & Male, 5 & Female | **Earth:** 71.6, 76.3 </br> **Mercury:** 298.3, 317.9 </br> **Venus:** 115.5, 123.1 </br> **Mars:** 38.1, 40.6 </br> **Jupiter:** 6.0, 6.4 |
+  | P | Determine (in years) how much a user outlived the avg. life expectancy on Earth, Mercury, Venus, Mars, and Jupiter | **Earth constants:** mAvg = 76.9, fAvg = 81.6 </br>**Mercury constants:** mAvg = 320.4, fAvg = 340.0 </br>**Venus constants:** mAvg = 124.0, fAvg = 131.6 </br>**Mars constants:** mAvg = 40.9, fAvg = 43.4 </br>**Jupiter constants:** mAvg = 6.5, fAvg = 81.6 </br></br> 80 M, 85 F | **Earth:** 3.1, 3.4 </br> **Mercury:** 12.9, 14.2 </br> **Venus:** 5.0, 5.5 </br> **Mars:** 1.6, 1.8 </br> **Jupiter:** 0.3, 0.3 |
+  | F | Return the date of a user's next birthday on Earth, Mercury, Venus, Mars, and Jupiter |  |  |
+  | F | Return the age Keith Richards will be in dog years on the planet Jupiter in 2073 |  |  |
+  | F | Determine how many mayfly lifespans (5 min) a human user has lived |  |  |
+  | F | Compare user's mayfly lifespans to current age (in Earth years) of our sun |  |  |
 
 
  ### *UX/UI*
