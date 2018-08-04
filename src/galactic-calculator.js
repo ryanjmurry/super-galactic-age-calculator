@@ -19,7 +19,7 @@ export class GalacticCalculator {
 
   ageSecondCalculator() {
     let today = new Date();
-    return (today.getTime() - this.birthday.getTime()) / 1000;
+    return Math.floor((today.getTime() - this.birthday.getTime()) / 1000);
   }
 
   yearsConverter(planet) {
@@ -60,5 +60,4 @@ export class GalacticCalculator {
       return this.yearsConverter(planet) - planetLifeExpectancy;
     }
   }
-
 }

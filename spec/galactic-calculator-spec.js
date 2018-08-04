@@ -19,7 +19,7 @@ describe('GalacticCalculator', function () {
   it('should determine an age, in seconds, from a given birthday', function () {
     let birthday = new Date("August 2, 2018");
     let today = new Date();
-    let result = (today.getTime() - birthday.getTime()) / 1000;
+    let result = Math.floor((today.getTime() - birthday.getTime()) / 1000);
     let newGalacticCalculator = new GalacticCalculator("M", 5, birthday);
     expect(newGalacticCalculator.ageSecondCalculator()).toEqual(result);
   });
@@ -80,7 +80,4 @@ describe('GalacticCalculator', function () {
     expect(newGalacticCalculatorF.outlivedExpectancyBy("Mars").toFixed(1)).toEqual("1.8");
     expect(newGalacticCalculatorF.outlivedExpectancyBy("Jupiter").toFixed(1)).toEqual("0.3");
   });
-
-
-
 });
