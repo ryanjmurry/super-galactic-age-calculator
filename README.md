@@ -57,7 +57,7 @@
   | P   | Determine (in years) how much a user outlived the avg. life expectancy on Venus.   | **constants:** mAvg = 124.0, fAvg = 131.6 <br> 80 M, 85 F | 5.0, 5.5     |
   | P   | Determine (in years) how much a user outlived the avg. life expectancy on Mars.    | **constants:** mAvg = 40.9, fAvg = 43.4 <br> 80 M, 85 F   | 1.6, 1.8     |
   | P   | Determine (in years) how much a user outlived the avg. life expectancy on Jupiter. | **constants:** mAvg = 6.5, fAvg = 81.6 <br> 80 M, 85 F    | 0.3, 0.3     |
-  | F   | Return the date of a user's next birthday on Earth                                 |                                                           |              |
+  | F   | Return the date of a user's next birthday on Earth                                 | August 03, 2018                                                          | August 03, 2019              |
   | F   | Return the date of a user's next birthday on Mercury                               |                                                           |              |
   | F   | Return the date of a user's next birthday on Venus                                 |                                                           |              |
   | F   | Return the date of a user's next birthday on Mars                                  |                                                           |              |
